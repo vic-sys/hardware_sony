@@ -5,9 +5,9 @@
 //
 
 android_app_import {
-	name: "XperiaAudioDolby",
+	name: "XperiaAudioAddon",
 	owner: "sony",
-	apk: "SoundEnhancement.apk",
+	apk: "XperiaAudioAddon.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
