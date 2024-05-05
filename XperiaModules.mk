@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 XperiaLabs Project
+# Copyright (C) 2024 XperiaLabs Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,6 +18,7 @@
 TARGET_SUPPORTS_CREATOR_MODE ?= true
 TARGET_SUPPORTS_HIGH_REFRESH_RATE ?= true
 TARGET_SUPPORTS_SOUND_ENHANCEMENT ?= true
+TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS ?= true
 TARGET_SUPPORTS_BATTERY_CARE ?= true
 TARGET_SUPPORTS_EUICC ?= true
 
@@ -38,9 +39,12 @@ ifeq ($(TARGET_SUPPORTS_HIGH_REFRESH_RATE),true)
 endif
 
 ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT),true)
-include hardware/sony/XperiaModules/XperiaDirac/sepolicy/dirac/SEPolicy.mk
+	PRODUCT_PACKAGES += XperiaAudioDolby
+endif
+
+ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS),true)
 	PRODUCT_PACKAGES += \
-	XperiaAudio \
+	XperiaAudioDTS \
 	XperiaTSRA
 endif
 
