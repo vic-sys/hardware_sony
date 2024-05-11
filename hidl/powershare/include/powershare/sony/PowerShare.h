@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +18,10 @@
 
 #include <hidl/MQDescriptor.h>
 #include <hidl/Status.h>
-#include <vendor/lineage/powershare/1.0/IPowerShare.h>
+#include <vendor/xperia/powershare/1.0/IPowerShare.h>
 
 namespace vendor {
-namespace lineage {
+namespace xperia {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -40,5 +41,5 @@ class PowerShare : public IPowerShare {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace lineage
+}  // namespace xperia
 }  // namespace vendor

@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.powershare@1.0-service.sony"
+#define LOG_TAG "vendor.xperia.powershare@1.0-service.sony"
 
 #include <android-base/logging.h>
 #include <android-base/strings.h>
@@ -22,7 +23,7 @@
 #include <powershare/sony/PowerShare.h>
 
 namespace vendor {
-namespace lineage {
+namespace xperia {
 namespace powershare {
 namespace V1_0 {
 namespace implementation {
@@ -64,5 +65,5 @@ Return<uint32_t> PowerShare::setMinBattery(uint32_t /*minBattery*/) {
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace powershare
-}  // namespace lineage
+}  // namespace xperia
 }  // namespace vendor

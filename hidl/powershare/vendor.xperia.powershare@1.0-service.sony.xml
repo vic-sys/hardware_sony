@@ -1,6 +1,6 @@
 <manifest version="1.0" type="device">
     <hal format="hidl">
-        <name>vendor.lineage.powershare</name>
+        <name>vendor.xperia.powershare</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>

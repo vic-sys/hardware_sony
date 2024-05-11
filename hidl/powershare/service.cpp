@@ -1,4 +1,5 @@
 /*
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.powershare@1.0-service.sony"
+#define LOG_TAG "vendor.xperia.powershare@1.0-service.sony"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -27,8 +28,8 @@ using ::android::status_t;
 using ::android::hardware::configureRpcThreadpool;
 using ::android::hardware::joinRpcThreadpool;
 
-using ::vendor::lineage::powershare::V1_0::IPowerShare;
-using ::vendor::lineage::powershare::V1_0::implementation::PowerShare;
+using ::vendor::xperia::powershare::V1_0::IPowerShare;
+using ::vendor::xperia::powershare::V1_0::implementation::PowerShare;
 
 int main() {
     status_t status = OK;
