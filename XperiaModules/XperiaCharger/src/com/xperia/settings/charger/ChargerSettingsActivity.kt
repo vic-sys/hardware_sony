@@ -7,8 +7,6 @@
 package com.xperia.settings.charger
 
 import android.os.Bundle
-
-import androidx.appcompat.app.AppCompatActivity
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 
 class ChargerSettingsActivity : CollapsingToolbarBaseActivity() {
