@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 XperiaLabs Project
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -10,7 +10,6 @@ import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
-import com.xperia.settings.charger.R
 
 class ChargerSettingsActivity : CollapsingToolbarBaseActivity() {
 
@@ -20,7 +19,7 @@ class ChargerSettingsActivity : CollapsingToolbarBaseActivity() {
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.content_frame, ChargerSettingsFragment())
+                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame, ChargerSettingsFragment())
                 .commit()
         }
     }
