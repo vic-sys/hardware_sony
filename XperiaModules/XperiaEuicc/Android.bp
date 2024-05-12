@@ -1,4 +1,5 @@
 //
+// Copyright (C) 2024 XperiaLabs Project
 // Copyright (C) 2023 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
@@ -19,23 +20,23 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
     required: [
-        "org.xperia.euicc.xml",
-        "hidden-api-whiteliste-org.xperia.euicc.xml",
+        "com.xperia.settings.euicc.xml",
+        "hidden-api-whiteliste-com.xperia.settings.euicc.xml",
     ],
 }
 
 prebuilt_etc {
     sub_dir: "permissions",
-    name: "org.xperia.euicc.xml",
-    filename: "org.xperia.euicc.xml",
-    src: "org.xperia.euicc.xml",
+    name: "com.xperia.settings.euicc.xml",
+    filename: "com.xperia.settings.euicc.xml",
+    src: "com.xperia.settings.euicc.xml",
     product_specific: true,
 }
 
 prebuilt_etc {
     sub_dir: "sysconfig",
-    name: "hidden-api-whiteliste-org.xperia.euicc.xml",
-    filename: "hidden-api-whiteliste-org.xperia.euicc.xml",
-    src: "hidden-api-whiteliste-org.xperia.euicc.xml",
+    name: "hidden-api-whiteliste-com.xperia.settings.euicc.xml",
+    filename: "hidden-api-whiteliste-com.xperia.settings.euicc.xml",
+    src: "hidden-api-whiteliste-com.xperia.settings.euicc.xml",
     product_specific: true,
 }

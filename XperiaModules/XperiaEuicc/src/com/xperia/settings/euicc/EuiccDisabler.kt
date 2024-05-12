@@ -1,9 +1,10 @@
 /*
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2021 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.xperia.euicc
+package com.xperia.settings.euicc
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -11,7 +12,7 @@ import android.content.pm.PackageManager.PackageInfoFlags
 import android.util.Log
 
 object EuiccDisabler {
-    private const val TAG = "SonyEuiccDisabler"
+    private const val TAG = "XperiaEuiccDisabler"
 
     private val EUICC_DEPENDENCIES = listOf(
         "com.google.android.gms",

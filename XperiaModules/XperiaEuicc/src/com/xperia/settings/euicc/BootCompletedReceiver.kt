@@ -1,9 +1,10 @@
 /*
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2021 The LineageOS Project
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.xperia.euicc
+package com.xperia.settings.euicc
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -17,6 +18,6 @@ class BootCompletedReceiver : BroadcastReceiver() {
     }
 
     companion object {
-        private const val TAG = "SonyEuiccBootReceiver"
+        private const val TAG = "XperiaEuicc"
     }
 }
