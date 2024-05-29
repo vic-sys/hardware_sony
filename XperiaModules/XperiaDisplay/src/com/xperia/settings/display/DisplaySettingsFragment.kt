@@ -25,10 +25,20 @@ import kotlin.collections.ArrayList
 
 import com.xperia.settings.display.R
 
+import com.xperia.settings.preferences.SecureSettingSwitchPreference
+
 const val CREATOR_MODE_KEY = "switchCreatorMode"
+
+const val KEY_X_REALITY_ENGINE = "x_reality_engine_mode_enabled"
+const val KEY_COLOR_BALANCE_RED = "color_balance_red"
+const val KEY_COLOR_BALANCE_GREEN = "color_balance_green"
+const val KEY_COLOR_BALANCE_BLUE = "color_balance_blue"
 
 class DisplaySettingsFragment : PreferenceFragment(), Preference.OnPreferenceChangeListener {
     private lateinit var creatorModeUtils: CreatorModeUtils
+    private var colorBalanceRed: SeekBarPreference? = null
+    private var colorBalanceGreen: SeekBarPreference? = null
+    private var colorBalanceBlue: SeekBarPreference? = null
 
 companion object {
     private const val DOT_INDICATOR_SIZE = 12
@@ -53,18 +63,40 @@ companion object {
         creatorModeUtils = CreatorModeUtils(context)
 
         addViewPager()
-
-        val creatorModePreference = findPreference<SwitchPreference>(CREATOR_MODE_KEY)!!
+    
+        colorBalanceRed = findPreference<SeekBarPreference>(KEY_COLOR_BALANCE_RED)
+        colorBalanceGreen = findPreference<SeekBarPreference>(KEY_COLOR_BALANCE_GREEN)
+        colorBalanceBlue = findPreference<SeekBarPreference>(KEY_COLOR_BALANCE_BLUE)
+    
+        val creatorModePreference = findPreference<SecureSettingSwitchPreference>(CREATOR_MODE_KEY)!!
         creatorModePreference.isChecked = creatorModeUtils.isEnabled
         creatorModePreference.onPreferenceChangeListener = this
+    
+        val xRealityEnginePreference = findPreference<SecureSettingSwitchPreference>(KEY_X_REALITY_ENGINE)!!
+        val isXRealityEngineEnabled = xRealityEnginePreference.sharedPreferences?.getBoolean(KEY_X_REALITY_ENGINE, false) ?: false
+        xRealityEnginePreference.isChecked = isXRealityEngineEnabled
+        xRealityEnginePreference.onPreferenceChangeListener = this
+    
+        updateSeekBarsState(isXRealityEngineEnabled)
     }
 
     override fun onPreferenceChange(preference: Preference, newValue: Any?): Boolean {
         when(preference.key) {
             CREATOR_MODE_KEY -> creatorModeUtils.setMode(newValue as Boolean)
+            KEY_X_REALITY_ENGINE -> {
+                updateSeekBarsState(newValue as Boolean)
+                val sharedPreferences = preference.sharedPreferences
+                sharedPreferences?.edit()?.putBoolean(KEY_X_REALITY_ENGINE, newValue as Boolean)?.apply()
+            }
         }
 
         return true
+    }
+
+    private fun updateSeekBarsState(isXRealityEngineEnabled: Boolean) {
+        colorBalanceRed?.isEnabled = !isXRealityEngineEnabled
+        colorBalanceGreen?.isEnabled = !isXRealityEngineEnabled
+        colorBalanceBlue?.isEnabled = !isXRealityEngineEnabled
     }
 
     override fun onSaveInstanceState(outState: Bundle) {

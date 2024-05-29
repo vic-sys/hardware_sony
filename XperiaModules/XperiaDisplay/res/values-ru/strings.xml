@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,5 +24,7 @@
     <string name="display_cm_header">Цветовая гамма и контрастность</string>
     <string name="display_cm_enable">Режим автора</string>
     <string name="display_cm_summary">Обеспечьте точное воспроизведение замысла создателя с помощью дисплея высокой четкости и специально разработанной обработки изображений, совместимой с цветовой гаммой BT.2020 и 10-битным цветом спецификации HDR.</string>
+    <string name="display_xre_enable">X-Reality Engine</string>
+    <string name="display_xre_summary">Дополнительный режим отображения, основанный на Bravia Engine, который улучшает качество просмотра благодаря оптимизированной контрастности и цветам.</string>
     <string name="display_settings_footer">Приложения, поддерживающие широкую цветовую гамму, будут автоматически отображаться в исходных цветах.\n\n\nHDR-видео в полноэкранном режиме будет автоматически отображаться в режиме автора.</string>
 </resources>

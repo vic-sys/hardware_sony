@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,5 +24,7 @@
     <string name="display_cm_header">ขอบเขตสีและคอนทราสต์</string>
     <string name="display_cm_enable">โหมดผู้สร้าง</string>
     <string name="display_cm_summary">มอบการสร้างวิสัยทัศน์ที่ผู้สร้างตั้งใจไว้อย่างสมจริงผ่านจอแสดงผลความละเอียดสูงและการประมวลผลภาพที่พัฒนาขึ้นมาเป็นพิเศษซึ่งเข้ากันได้กับขอบเขตสี BT.2020 และข้อกำหนดสี 10 บิตของ HDR</string>
+    <string name="display_xre_enable">X-Reality Engine</string>
+    <string name="display_xre_summary">โหมดการแสดงผลเพิ่มเติมที่ได้รับแรงบันดาลใจจาก Bravia Engine เพื่อปรับปรุงประสบการณ์การรับชมของคุณด้วยคอนทราสต์และสีที่ปรับให้เหมาะสม</string>
     <string name="display_settings_footer">แอปที่รองรับขอบเขตสีที่กว้างจะแสดงเป็นสีดั้งเดิมโดยอัตโนมัติ\n\n\nวิดีโอ HDR ในโหมดเต็มหน้าจอจะแสดงโดยอัตโนมัติด้วยโหมดผู้สร้าง</string>
 </resources>

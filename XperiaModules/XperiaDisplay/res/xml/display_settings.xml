@@ -14,11 +14,18 @@
         app:iconSpaceReserved="false"
         app:title="@string/display_cm_header">
 
-        <SwitchPreference app:key="switchCreatorMode"
+        <com.xperia.settings.preferences.SecureSettingSwitchPreference
+                          app:key="switchCreatorMode"
                           app:iconSpaceReserved="false"
                           app:title="@string/display_cm_enable"
-                          app:summary="@string/display_cm_summary"
-        />
+                          app:summary="@string/display_cm_summary" />
+
+        <com.xperia.settings.preferences.SecureSettingSwitchPreference
+                          app:key="x_reality_engine_mode_enabled"
+                          app:iconSpaceReserved="false"
+                          app:title="@string/display_xre_enable"
+                          app:summary="@string/display_xre_summary" />
+
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference

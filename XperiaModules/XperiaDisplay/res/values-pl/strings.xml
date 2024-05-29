@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,5 +24,7 @@
     <string name="display_cm_header">Gama Kolorów i Kontrast</string>
     <string name="display_cm_enable">Tryb Twórcy</string>
     <string name="display_cm_summary">Zapewnia wierne odwzorowanie zamierzonej wizji twórcy dzięki wyświetlaczowi o wysokiej rozdzielczości i specjalnie opracowanemu przetwarzaniu obrazu zgodnemu z gamą kolorów BT.2020 i 10-bitową specyfikacją HDR.</string>
+    <string name="display_xre_enable">X-Reality Engine</string>
+    <string name="display_xre_summary">Dodatkowy tryb wyświetlania inspirowany technologią Bravia Engine, poprawiający wrażenia wizualne dzięki zoptymalizowanemu kontrastowi i kolorom.</string>
     <string name="display_settings_footer">Aplikacje obsługujące szeroką gamę kolorów będą automatycznie wyświetlane w oryginalnych kolorach.\n\n\nFilmy HDR w trybie pełnoekranowym będą automatycznie wyświetlane w trybie twórcy.</string>
 </resources>

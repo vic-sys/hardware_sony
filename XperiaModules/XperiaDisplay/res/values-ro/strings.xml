@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,5 +24,7 @@
     <string name="display_cm_header">Gama de Culori și de Contrast</string>
     <string name="display_cm_enable">Mod Creator</string>
     <string name="display_cm_summary">Oferă o reproducere fidelă a viziunii intenționate a creatorului prin afișaj de înaltă definiție și procesare a imaginii special dezvoltată, care este compatibilă cu gama de culori BT.2020 și culoarea pe 10 biți a specificației HDR.</string>
+    <string name="display_xre_enable">X-Reality Engine</string>
+    <string name="display_xre_summary">Un mod adițional de afișare inspirat de Motorul Bravia pentru a vă îmbunătăți experiența de vizionare cu contrast și culori optimizate.</string>
     <string name="display_settings_footer">Aplicațiile care suportă o gamă largă de culori vor fi afișate automat în culorile lor originale.\n\n\nVideoclipurile HDR în modul ecran complet vor fi afișate automat în Mod Creator.</string>
 </resources>

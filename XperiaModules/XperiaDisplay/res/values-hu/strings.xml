@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -24,5 +24,7 @@
     <string name="display_cm_header">Színskála és Kontraszt</string>
     <string name="display_cm_enable">Teremtő Mód</string>
     <string name="display_cm_summary">A BT.2020 színskálával és a 10 bites HDR specifikációval kompatibilis, nagy felbontású kijelzőn és speciálisan kifejlesztett képfeldolgozáson keresztül hűen reprodukálja az alkotó elképzelését.</string>
+    <string name="display_xre_enable">X-Reality Engine</string>
+    <string name="display_xre_summary">Egy további Bravia Engine által ihletett megjelenítési mód, amely optimalizált kontraszttal és színekkel fokozza a megtekintési élményt.</string>
     <string name="display_settings_footer">A széles színskálát támogató alkalmazások automatikusan az eredeti színükben jelennek meg.\n\n\nA teljes képernyős módban lévő HDR videók automatikusan Alkotói módban jelennek meg.</string>
 </resources>
