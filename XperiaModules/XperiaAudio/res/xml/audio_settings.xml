@@ -47,31 +47,9 @@
             android:key="audio_effectpriority"
             android:title="@string/effectpriority_title"
             android:summary="@string/effectpriority_summary"
-            android:persistent="false">
-            <intent
-                android:targetPackage="com.sonyericsson.soundenhancement"
-                android:targetClass="com.sonyericsson.soundenhancement.EffectPriority.TargetAppListActivity" />
+            android:persistent="false"
+            android:selectable="false">
         </Preference>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
-
-        <Preference
-            android:key="audio_windnoisereduction"
-            android:title="@string/windnoisereduction_title"
-            android:summary="@string/windnoisereduction_summary"
-            android:persistent="false">
-            <intent
-                android:targetPackage="com.sonyericsson.soundenhancement"
-                android:targetClass="com.sonyericsson.soundenhancement.WindNoiseReductionActivity" />
-        </Preference>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
 
     </PreferenceCategory>
 

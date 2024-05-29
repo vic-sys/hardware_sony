@@ -39,7 +39,9 @@ ifeq ($(TARGET_SUPPORTS_HIGH_REFRESH_RATE),true)
 endif
 
 ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT),true)
-	PRODUCT_PACKAGES += XperiaAudio
+	PRODUCT_PACKAGES += \
+	XperiaAudio \
+        XperiaAudioAddon
 endif
 
 ifeq ($(TARGET_SUPPORTS_SOUND_ENHANCEMENT_DTS),true)
