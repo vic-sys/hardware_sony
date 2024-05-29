@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -27,12 +27,12 @@
     <!-- Sound Settings -->
     <string name="sound_title">音</string>
     <string name="audio_settings_title">オーディオ設定</string>
-    <string name="audio_settings_summary">ドルビー サウンド EQ と 360 リアリティ オーディオ アップミックスで音質を向上させ、驚くべき臨場感あふれるオーディオ再生体験を実現します。</string>
+    <string name="audio_settings_summary">ドルビー サウンド EQ と 360 リアリティ オーディオ アップミックスで音質を向上させ、驚くべき臨場感あふれるオーディオ再生体験を実現します</string>
 	  
     <!-- Charging Settings -->
     <string name="charging_title">充電</string>
     <string name="charger_settings_title">バッテリーのケア</string>
-    <string name="charger_settings_summary">最大充電率を調整し、その他の充電設定を微調整することで、バッテリーの寿命を最適化します。</string>
+    <string name="charger_settings_summary">最大充電率を調整し、その他の充電設定を微調整することで、バッテリーの寿命を最適化します</string>
 	  
     <!-- USB Section | External Monitor -->
     <string name="usb_title">USB</string>
@@ -47,4 +47,8 @@
     <string name="gaming_title">ゲーム</string>
     <string name="dsm_settings_title">ワイヤレスコントローラーPS5およびPS4</string>
     <string name="dsm_settings_summary">PlayStation© コントローラーを Xperia デバイスに接続してゲームに利用します</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Xperia Stream は、強化されたディスプレイ出力とストリーミング機能、および携帯電話の熱を放散してパフォーマンスを向上させるファンを提供します</string>
 </resources>

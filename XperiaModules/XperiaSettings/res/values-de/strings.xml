@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -47,4 +47,8 @@
     <string name="gaming_title">Gaming</string>
     <string name="dsm_settings_title">Kabelloser Controller für PS5 und PS4</string>
     <string name="dsm_settings_summary">Verbinden Sie Ihren PlayStation©-Controller mit Ihrem Xperia Gerät, um ihn beim Gaming zu nutzen</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Das Xperia Stream bietet Ihnen eine verbesserte Anzeigeausgabe und Streaming-Funktionen sowie einen Lüfter, der dem Telefon hilft, Wärme abzuleiten und so die Leistung zu verbessern</string>
 </resources>

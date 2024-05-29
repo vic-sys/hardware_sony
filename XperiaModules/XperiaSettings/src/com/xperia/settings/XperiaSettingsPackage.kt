@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 XperiaLabs Project
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -28,25 +28,24 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
     private val usbaClassName = "jp.co.sony.mc.usbextoutaudio.AudioSettingsActivity"
     private val dsmPackageName = "com.sonymobile.dualshockmanager"
     private val dsmClassName = "com.sonymobile.dualshockmanager.Ds4SetUpActivity"
+    private val accuiPackageName = "jp.co.sony.mc.gameaccui"
+    private val accuiClassName = "jp.co.sony.mc.gameaccui.MainActivity"
 
     fun setupDisplaySettings() {
         try {
             val packageInfo = pm?.getPackageInfo(displayPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("display_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(displayPackageName, displayClassName)
                 }
                 fragment.findPreference<Preference>("display_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("display")
                 fragment.findPreference<Preference>("display_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("display")
             fragment.findPreference<Preference>("display_settings")?.isVisible = false
             category?.isVisible = false
@@ -57,20 +56,17 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         try {
             val packageInfo = pm?.getPackageInfo(audioPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("audio_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(audioPackageName, audioClassName)
                 }
                 fragment.findPreference<Preference>("audio_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("sound")
                 fragment.findPreference<Preference>("audio_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("sound")
             fragment.findPreference<Preference>("audio_settings")?.isVisible = false
             category?.isVisible = false
@@ -81,20 +77,17 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         try {
             val packageInfo = pm?.getPackageInfo(batteryPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("charging_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(batteryPackageName, batteryClassName)
                 }
                 fragment.findPreference<Preference>("charging_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("charger")
                 fragment.findPreference<Preference>("charging_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("charger")
             fragment.findPreference<Preference>("charging_settings")?.isVisible = false
             category?.isVisible = false
@@ -104,20 +97,17 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         try {
             val packageInfo = pm?.getPackageInfo(extmonPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(extmonPackageName, extmonClassName)
                 }
                 fragment.findPreference<Preference>("usb_extmon_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("usb")
                 fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("usb")
             fragment.findPreference<Preference>("usb_extmon_settings")?.isVisible = false
             category?.isVisible = false
@@ -127,20 +117,17 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         try {
             val packageInfo = pm?.getPackageInfo(usbaPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("usb_audio_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(usbaPackageName, usbaClassName)
                 }
                 fragment.findPreference<Preference>("usb_audio_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("usb")
                 fragment.findPreference<Preference>("usb_audio_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("usb")
             fragment.findPreference<Preference>("usb_audio_settings")?.isVisible = false
             category?.isVisible = false
@@ -150,22 +137,40 @@ class XperiaSettingsPackage(private val fragment: PreferenceFragmentCompat) {
         try {
             val packageInfo = pm?.getPackageInfo(dsmPackageName, PackageManager.GET_ACTIVITIES)
             if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
-                // Package exists and has a version code greater than or equal to 1, set preference to visible
                 fragment.findPreference<Preference>("dsm_settings")?.isVisible = true
                 val intent = Intent().apply {
                     setClassName(dsmPackageName, dsmClassName)
                 }
                 fragment.findPreference<Preference>("dsm_settings")?.intent = intent
             } else {
-                // Package does not exist or has a version code less than 1, set preference to hidden
                 val category = fragment.findPreference<PreferenceCategory>("gaming")
                 fragment.findPreference<Preference>("dsm_settings")?.isVisible = false
                 category?.isVisible = false
             }
         } catch (e: PackageManager.NameNotFoundException) {
-            // Package does not exist, set preference to hidden
             val category = fragment.findPreference<PreferenceCategory>("gaming")
             fragment.findPreference<Preference>("dsm_settings")?.isVisible = false
+            category?.isVisible = false
+        }
+    }
+    fun setupACCUISettings() {
+        try {
+            val packageInfo = pm?.getPackageInfo(accuiPackageName, PackageManager.GET_ACTIVITIES)
+            if (packageInfo != null && PackageInfoCompat.getLongVersionCode(packageInfo) >= 1) {
+                fragment.findPreference<Preference>("accui_settings")?.isVisible = true
+                val intent = Intent().apply {
+                    setClassName(accuiPackageName, accuiClassName)
+                }
+                fragment.findPreference<Preference>("accui_settings")?.intent = intent
+            } else {
+
+                val category = fragment.findPreference<PreferenceCategory>("gaming")
+                fragment.findPreference<Preference>("accui_settings")?.isVisible = false
+                category?.isVisible = false
+            }
+        } catch (e: PackageManager.NameNotFoundException) {
+            val category = fragment.findPreference<PreferenceCategory>("gaming")
+            fragment.findPreference<Preference>("accui_settings")?.isVisible = false
             category?.isVisible = false
         }
     }

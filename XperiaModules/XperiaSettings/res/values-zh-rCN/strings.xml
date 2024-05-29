@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -47,4 +47,8 @@
     <string name="gaming_title">游戏</string>
     <string name="dsm_settings_title">适用于 PS4 和 PS5 的无线控制器</string>
     <string name="dsm_settings_summary">将 PlayStation© 控制器连接到 Xperia 设备以利用它们进行游戏</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia 串流</string>
+    <string name="accui_settings_summary">这款 Xperia 设备为您提供增强的显示输出和流媒体功能，并配有一个风扇，有助于手机散热，提高性能</string>
 </resources>

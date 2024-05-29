@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -47,4 +47,8 @@
     <string name="gaming_title">Spelande</string>
     <string name="dsm_settings_title">Trådlös handkontroll för PS5 &amp; PS4</string>
     <string name="dsm_settings_summary">Anslut dina PlayStation©-kontroller till din Xperia-enhet för att använda dem för spel</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Xperia Stream förser dig med förbättrad skärmutgång och strömningsfunktioner och en fläkt som hjälper telefonen att avleda värme, vilket förbättrar prestandan</string>
 </resources>

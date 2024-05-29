@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -22,17 +22,17 @@
     <!-- Display Settings -->
     <string name="display_title">표시하다</string>
     <string name="display_settings_title">이미지 품질 설정</string>
-    <string name="display_settings_summary">잊을 수 없는 시각적 경험을 선사하기 위해 화려한 색상이나 제작자의 의도된 비전을 충실하게 재현한 것 중에서 선택하세요.</string>
+    <string name="display_settings_summary">잊을 수 없는 시각적 경험을 선사하기 위해 화려한 색상이나 제작자의 의도된 비전을 충실하게 재현한 것 중에서 선택하세요</string>
 
     <!-- Sound Settings -->
     <string name="sound_title">소리</string>
     <string name="audio_settings_title">오디오 설정</string>
-    <string name="audio_settings_summary">놀랍고 몰입감 넘치는 오디오 재생 경험을 위해 Dolby Sound EQ 및 360 Reality Audio Upmix로 음질을 향상하세요.</string>
+    <string name="audio_settings_summary">놀랍고 몰입감 넘치는 오디오 재생 경험을 위해 Dolby Sound EQ 및 360 Reality Audio Upmix로 음질을 향상하세요</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">충전 중</string>
     <string name="charger_settings_title">배터리 관리</string>
-    <string name="charger_settings_summary">최대 충전 비율을 조정하고 기타 충전 설정을 미세 조정하여 배터리 수명을 최적화하세요.</string>
+    <string name="charger_settings_summary">최대 충전 비율을 조정하고 기타 충전 설정을 미세 조정하여 배터리 수명을 최적화하세요</string>
 
     <!-- USB Section | External Monitor -->
     <string name="usb_title">USB</string>
@@ -47,4 +47,8 @@
     <string name="gaming_title">노름</string>
     <string name="dsm_settings_title">PS4용 무선 컨트롤러 PS5</string>
     <string name="dsm_settings_summary">PlayStation© 컨트롤러를 Xperia 기기에 연결하여 게임에 활용하세요</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Xperia Stream 은 향상된 디스플레이 출력 및 스트리밍 기능과 휴대폰의 열을 방출하여 성능을 향상시키는 팬을 제공합니다</string>
 </resources>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 XperiaLabs Project
+ * Copyright (C) 2024 XperiaLabs Project
  * Copyright (C) 2022 Paranoid Android
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -24,5 +24,6 @@ class XperiaSettingsFragment : PreferenceFragmentCompat() {
         xperiaSettingsPackage.setupExtMonSettings()
         xperiaSettingsPackage.setupUSBASettings()
         xperiaSettingsPackage.setupDSMSettings()
+        xperiaSettingsPackage.setupACCUISettings()
     }
 }

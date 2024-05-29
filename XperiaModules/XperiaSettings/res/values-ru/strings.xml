@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -47,4 +47,8 @@
     <string name="gaming_title">Игры</string>
     <string name="dsm_settings_title">Беспроводной контроллер для PS5 и усилителя; PS4</string>
     <string name="dsm_settings_summary">Подключите контроллеры PlayStation© к устройству Xperia, чтобы использовать их для игр</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Xperia Stream предоставляет расширенные возможности вывода на дисплей и потоковой передачи, а также вентилятор, который помогает телефону рассеивать тепло, повышая производительность</string>
 </resources>

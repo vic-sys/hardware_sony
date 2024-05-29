@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2023 XperiaLabs Project
+  ~ Copyright (C) 2024 XperiaLabs Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -47,4 +47,8 @@
     <string name="gaming_title">Hazard</string>
     <string name="dsm_settings_title">Kontroler Bezprzewodowy do PS5 i PS4</string>
     <string name="dsm_settings_summary">Podłącz kontrolery PlayStation© do urządzenia Xperia, aby używać ich do grania</string>
+
+    <!-- Xperia Stream -->
+    <string name="accui_settings_title">Xperia Stream</string>
+    <string name="accui_settings_summary">Xperia Stream zapewnia ulepszone możliwości wyświetlania i przesyłania strumieniowego, a także wentylator, który pomoże telefonowi rozproszyć ciepło, poprawiając wydajność</string>
 </resources>

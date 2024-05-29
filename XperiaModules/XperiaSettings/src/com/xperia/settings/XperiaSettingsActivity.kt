@@ -14,7 +14,11 @@ class XperiaSettingsActivity : CollapsingToolbarBaseActivity() {
         super.onCreate(savedInstanceState)
         supportFragmentManager
                 .beginTransaction()
-                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame, XperiaSettingsFragment(), TAG)
+		.replace(
+			com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+			XperiaSettingsFragment(),
+			TAG
+		)
                 .commit()
     }
 
