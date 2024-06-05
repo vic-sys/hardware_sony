@@ -26,7 +26,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.view.Display;
 
-import com.xperia.settings.touch.HighTouchPollingService;
+import com.xperia.settings.touch.polling.HighTouchPollingService;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 

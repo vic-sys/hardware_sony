@@ -33,8 +33,9 @@
         </receiver>
 
         <service
-            android:name="polling.HighTouchPollingService"
-            android:permission="HighTouchPollingService">
+            android:name=".HighTouchPollingService"
+            android:permission="HighTouchPollingService"
+    	    android:exported="true">
         </service>
 
     </application>

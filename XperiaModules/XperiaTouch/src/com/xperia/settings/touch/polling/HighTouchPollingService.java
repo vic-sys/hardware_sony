@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.xperia.settings.touch;
+package com.xperia.settings.touch.polling;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;

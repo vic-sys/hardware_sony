@@ -1,3 +1,4 @@
--keep class com.xperia.settings.touch.* {
+-keep class com.xperia.settings.touch.*
+-keep class com.xperia.settings.touch.polling.* {
   *;
 }
