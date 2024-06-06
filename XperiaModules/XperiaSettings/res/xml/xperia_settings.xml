@@ -40,6 +40,17 @@
                 android:targetClass="com.xperia.settings.audio.AudioSettingsActivity" />
         </Preference>
 
+        <Preference
+            android:key="media_vibration"
+            android:icon="@drawable/ic_dynamic_vibration"
+            android:title="@string/dynamic_vibration_title"
+            android:summary="@string/dynamic_vibration_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.xperia.settings.mediavibration"
+                android:targetClass="erfanrouhani.hapticfeedback.ui.activities.SplashActivity" />
+        </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -28,6 +28,8 @@
     <string name="sound_title">آواز</string>
     <string name="audio_settings_title">آڈیو کی ترتیبات</string>
     <string name="audio_settings_summary">شاندار اور عمیق آڈیو پلے بیک کے تجربے کے لیے Dolby Sound EQ اور 360 Reality Audio Upmix کے ساتھ اپنی آواز کے معیار کو بلند کریں۔</string>
+    <string name="dynamic_vibration_title">متحرک وائبریشن</string>
+    <string name="dynamic_vibration_summary">میڈیا ساؤنڈ کے ساتھ ہم آہنگ کمپن کے ذریعے میڈیا چلانے کے اپنے تجربے کو بہتر بنائیں</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">چارج ہو رہا ہے۔</string>

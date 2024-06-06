@@ -28,6 +28,8 @@
     <string name="sound_title">Sunet</string>
     <string name="audio_settings_title">Setari Audio</string>
     <string name="audio_settings_summary">Ridicați calitatea sunetului cu EQ-ul Dolby Sound și 360 Reality Audio Upmix pentru o experiență audio remarcabilă și captivantă</string>
+    <string name="dynamic_vibration_title">Vibrații Dinamice</string>
+    <string name="dynamic_vibration_summary">Îmbunătățiți-vă experiența de redare a conținutului media prin vibrații armonizate cu sunetul media</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Încărcare</string>

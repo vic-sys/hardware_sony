@@ -28,6 +28,8 @@
     <string name="sound_title">ध्वनि</string>
     <string name="audio_settings_title">ऑडियो सेटिंग्स</string>
     <string name="audio_settings_summary">एक उल्लेखनीय और इमर्सिव ऑडियो प्लेबैक अनुभव के लिए डॉल्बी साउंड ईक्यू और 360 रियलिटी ऑडियो अपमिक्स के साथ अपनी ध्वनि गुणवत्ता को बढ़ाएं</string>
+    <string name="dynamic_vibration_title">गतिशील कंपन</string>
+    <string name="dynamic_vibration_summary">मीडिया ध्वनि के साथ सामंजस्यपूर्ण कंपन द्वारा मीडिया चलाने के अपने अनुभव को बढ़ाएं</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">चार्जिंग</string>

@@ -28,6 +28,8 @@
     <string name="sound_title">Hang</string>
     <string name="audio_settings_title">Hangbeállítások</string>
     <string name="audio_settings_summary">Javítsa hangminőségét a Dolby Sound kiegyenlítő és a 360 Reality Audio Upmix segítségével a figyelemre méltó és magával ragadó hanglejátszási élmény érdekében</string>
+    <string name="dynamic_vibration_title">Dinamikus Vibráció</string>
+    <string name="dynamic_vibration_summary">Fokozza a médialejátszás élményét a médiahanggal harmonizált rezgéssel</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Töltés</string>

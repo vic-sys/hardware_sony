@@ -20,6 +20,7 @@ class XperiaSettingsFragment : PreferenceFragmentCompat() {
         val xperiaSettingsPackage = XperiaSettingsPackage(this)
         xperiaSettingsPackage.setupDisplaySettings()
         xperiaSettingsPackage.setupAudioSettings()
+        xperiaSettingsPackage.setupMediaVibration()
         xperiaSettingsPackage.setupBatterySettings()
         xperiaSettingsPackage.setupExtMonSettings()
         xperiaSettingsPackage.setupUSBASettings()

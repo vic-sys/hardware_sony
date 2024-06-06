@@ -28,6 +28,8 @@
     <string name="sound_title">Som</string>
     <string name="audio_settings_title">Definições de Áudio</string>
     <string name="audio_settings_summary">Eleve a sua qualidade de áudio com o Dolby Sound EQ e 360 Reality Audio Upmix para uma reprodução de áudio diferenciada e imersiva</string>
+    <string name="dynamic_vibration_title">Vibração Dinâmica</string>
+    <string name="dynamic_vibration_summary">Melhore a sua experiência de reprodução de mídia por vibração harmonizada com o som da mídia</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Carga</string>

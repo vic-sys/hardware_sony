@@ -28,6 +28,8 @@
     <string name="sound_title">Son</string>
     <string name="audio_settings_title">Les Paramètres Audio</string>
     <string name="audio_settings_summary">Améliorez votre qualité sonore avec le Dolby Sound EQ et le 360 Reality Audio Upmix pour une expérience de lecture audio remarquable et immersive</string>
+    <string name="dynamic_vibration_title">Vibrations Dynamiques</string>
+    <string name="dynamic_vibration_summary">Améliorez votre expérience de lecture multimédia grâce à des vibrations harmonisées avec le son multimédia</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Mise en Charge</string>

@@ -28,6 +28,8 @@
     <string name="sound_title">Звук</string>
     <string name="audio_settings_title">Настройки звука</string>
     <string name="audio_settings_summary">Повысьте качество звука с помощью Dolby Sound эквалайзер и 360 Реальность Аудио Апмикс для потрясающего и захватывающего воспроизведения звука</string>
+    <string name="dynamic_vibration_title">Динамическая вибрация</string>
+    <string name="dynamic_vibration_summary">Улучшите свои впечатления от воспроизведения мультимедиа с помощью вибрации, гармонирующей со звуком мультимедиа</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Зарядка</string>

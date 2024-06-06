@@ -28,6 +28,8 @@
     <string name="sound_title">Ljud</string>
     <string name="audio_settings_title">Ljudinställningar</string>
     <string name="audio_settings_summary">Höj din ljudkvalitet med Dolby Sound EQ och 360 Reality Audio Upmix för en anmärkningsvärd och uppslukande ljuduppspelningsupplevelse</string>
+    <string name="dynamic_vibration_title">Dynamisk Vibration</string>
+    <string name="dynamic_vibration_summary">Förbättra din upplevelse av att spela media genom vibrationer harmoniserade med medialjud</string>
 
     <!-- Charging Settings --> 
     <string name="charging_title">Laddar</string>

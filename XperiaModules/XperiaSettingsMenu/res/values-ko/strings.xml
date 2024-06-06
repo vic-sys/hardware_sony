@@ -27,7 +27,9 @@
     <!-- Sound Settings -->
     <string name="sound_title">소리</string>
     <string name="audio_settings_title">오디오 설정</string>
-    <string name="audio_settings_summary">놀랍고 몰입감 넘치는 오디오 재생 경험을 위해 Dolby Sound EQ 및 360 Reality Audio Upmix로 음질을 향상하세요</string>
+    <string name="audio_settings_summary">놀랍고 몰입감 넘치는 오디오 재생 경험을 위해 Dolby Sound EQ 및 360 Reality Audio Upmix 로 음질을 향상하세요</string>
+    <string name="dynamic_vibration_title">동적 진동</string>
+    <string name="dynamic_vibration_summary">미디어 사운드와 조화를 이루는 진동으로 미디어 재생 경험을 향상시킵니다</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">충전 중</string>

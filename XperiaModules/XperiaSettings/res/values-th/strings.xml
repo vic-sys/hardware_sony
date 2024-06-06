@@ -28,6 +28,8 @@
     <string name="sound_title">เสียง</string>
     <string name="audio_settings_title">การตั้งค่าเสียง</string>
     <string name="audio_settings_summary">ยกระดับคุณภาพเสียงของคุณด้วย Dolby Sound EQ และ 360 Reality Audio Upmix เพื่อประสบการณ์การเล่นเสียงที่น่าทึ่งและดื่มด่ำ</string>
+    <string name="dynamic_vibration_title">การสั่นสะเทือนแบบไดนามิก</string>
+    <string name="dynamic_vibration_summary">ยกระดับประสบการณ์การเล่นสื่อของคุณด้วยการสั่นสะเทือนที่กลมกลืนกับเสียงสื่อ</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">กำลังชาร์จ</string>

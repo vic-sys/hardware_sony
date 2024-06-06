@@ -28,6 +28,8 @@
     <string name="sound_title">Geluid</string>
     <string name="audio_settings_title">Geluidsinstellingen</string>
     <string name="audio_settings_summary">Verbeter uw geluidskwaliteit met Dolby Sound EQ en 360 Reality Audio Upmix voor een opmerkelijke en meeslepende audioafspeelervaring</string>
+    <string name="dynamic_vibration_title">Dynamische Vibratie</string>
+    <string name="dynamic_vibration_summary">Verbeter uw ervaring met het afspelen van media door trillingen die zijn geharmoniseerd met mediageluid</string>
 
     <!-- Charging Settings -->
     <string name="charging_title">Opladen</string>
