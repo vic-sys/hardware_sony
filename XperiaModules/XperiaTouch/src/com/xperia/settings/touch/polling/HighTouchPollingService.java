@@ -111,8 +111,8 @@ public class HighTouchPollingService extends Service {
     }
 
     public static void startService(Context context) {
-        context.startServiceAsUser(
-            new Intent(context, HighTouchPollingService.class), UserHandle.CURRENT);
+        context.startServiceAsUser(new Intent(context, HighTouchPollingService.class),
+                UserHandle.CURRENT);
     }
 
     private void updateTouchPollingState(boolean readSetting) {
