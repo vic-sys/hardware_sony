@@ -1,0 +1,4 @@
+allow platform_app audio_config_prop:file read;
+userdebug_or_eng(`
+allow platform_app default_prop:property_service set;
+')
