@@ -1,0 +1,7 @@
+allow init { idd_root_dir idd_rca_dir }:dir mounton;
+
+allow init sysfs_tsp:file rw_file_perms;
+allow init vendor_sysfs_graphics:{ file lnk_file } r_file_perms;
+
+# Allow init to set attribute to sysfs_kprofiles
+allow init sysfs_kprofiles:file { setattr };
